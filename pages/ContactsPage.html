@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/main-style.css">
+    <title>Контакты</title>
+</head>
+<body>
+    <header class="header_content">
+        <div class="header__logo">
+            <img src="../assets/images/logo.png" class="logo_img"/>
+        </div>
+        <nav class="header__nav">
+            <ul class="link_list">
+                <li class="nav_link"><a href="../index.html">Главная</a></li>
+                <li class="nav_link"><a href="AboutPage.html">О нас</a></li>
+                <li class="nav_link"><a href="HomePage.html">Каталог</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main">
+        <section class="contact_info">
+            <h1>Свяжитесь с нами</h1>
+            <p>Мы всегда рады помочь вам! Если у вас есть вопросы, комментарии или предложения, не стесняйтесь обращаться к нам.</p>
+
+            <h2>Контактная информация</h2>
+            <ul>
+                <li><strong>Телефон:</strong> +7 (123) 456-78-90</li>
+                <li><strong>Email:</strong> info@yourwebsite.com</li>
+                <li><strong>Адрес:</strong> г. Москва, ул. Примерная, д. 1</li>
+            </ul>
+        </section>
+
+        <section class="contact_form">
+            <h2>Форма обратной связи</h2>
+            <form action="submit_form.php" method="POST">
+                <label for="name">Ваше имя:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Ваш Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Сообщение:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Отправить</button>
+            </form>
+        </section>
+
+        <section class="location_map">
+            <h2>Наше местоположение</h2>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2244.1234567890123!2d37.6173!3d55.7558!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54a1d1a1a1a1a%3A0x1a1a1a1a1a1a1a1a!2z0JzQvtC70YzQutC-0LrQu9C-0YHRgtC-0YjQuC3Q!5e0!3m2!1sru!2sru!4v1234567890123"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </section>
+    </main>
+
+    <footer class="footer_content">
+        <p>© 2025 Мой сайт</p>
+        <div class="footer_socials">
+            <img src="assets/images/social_discord.png" class="socials_img"/>
+            <img src="assets/images/social_facebook.png" class="socials_img"/>
+            <img src="assets/images/social_instagram.png" class="socials_img"/>
+        </div>
+    </footer>
+</body>
+</html>
+

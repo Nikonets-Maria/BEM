@@ -1,4 +1,9 @@
 
+*{
+    font-family: "Indie Flower", cursive;
+    font-style: normal;
+}
+
 .header_content{
     display: flex;
     justify-content: space-between;

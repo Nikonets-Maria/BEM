@@ -21,46 +21,65 @@
     </header>
     
     <main class="main">
-        <section class="first_content">
-            <h1>Наш каталог ароматов</h1>
-            <p>Добро пожаловать в наш каталог, где вы найдете разнообразие уникальных ароматов, созданных для того, чтобы подчеркнуть вашу индивидуальность и стиль. Исследуйте наши категории и найдите свой идеальный аромат!</p>
-        </section>
 
-        <section class="second_content">
-            <h2>Категории ароматов</h2>
-            <div class="content_item">
+        <section class="catalog_content">
+            <div class="intermedia_item">
+                <h1>Каталог наших ароматов</h1>
+                <p>Добро пожаловать в наш каталог, где вы найдете разнообразие уникальных ароматов, созданных для того, чтобы подчеркнуть вашу индивидуальность и стиль. Исследуйте наши категории и найдите свой идеальный аромат!</p>
+            </div>
+            
+            <div class="catalog_item">
                 <h4>Цветочные ароматы</h4>
                 <p>Цветочные ароматы идеально подходят для романтических натур. Они излучают нежность и женственность, создавая атмосферу весны и свежести.</p>
-                <img src="../assets/images/flower_category.png" class="flower_img"/>
+                <img src="../assets/images/lavender.png" class="arom_img"/>
             </div>
-            <div class="content_item">
+
+            <div class="catalog_item">
                 <h4>Фруктовые ароматы</h4>
                 <p>Фруктовые ароматы полны энергии и жизнерадостности. Они идеально подходят для повседневного использования и добавляют яркие акценты в любой образ.</p>
-                <img src="../assets/images/fruit_category.png" class="flower_img"/>
+                <img src="../assets/images/vanilla.png" class="arom_img"/>
             </div>
-            <div class="content_item">
+
+            <div class="catalog_item">
                 <h4>Восточные ароматы</h4>
                 <p>Восточные ароматы отличаются насыщенными, глубокими нотами, которые создают атмосферу загадочности и роскоши. Они идеально подходят для вечерних выходов.</p>
-                <img src="../assets/images/oriental_category.png" class="flower_img"/>
+                <img src="../assets/images/moon.png" class="arom_img"/>
             </div>
+
+            <div class="catalog_item">
+                <h4>Зеленые ароматы </h4>
+                <p>Зеленые ароматы пронизаны свежестью трав и листьев, создавая ощущение близости к природе. Они идеально подходят для активных прогулок на свежем воздухе и дарят чувство свободы и легкости.</p>
+                <img src="../assets/images/leaves5.png" class="arom_img"/>
+            </div>
+
+            <div class="catalog_item">
+                <h4>Деревянные ароматы</h4>
+                <p>Деревянные ароматы обладают теплотой и стойкостью, создавая ощущение уюта и комфорта. Их глубокие и землистые ноты идеально подходят для осенних вечеров и дарят чувство уверенности и стабильности.</p>                
+                <img src="../assets/images/tuberose.png" class="arom_img"/>
+            </div>
+
+            <div class="catalog_item">
+                <h4>Цитрусовые ароматы </h4>
+                <p>Цитрусовые ароматы наполняют атмосферу свежестью и бодростью, даря заряд энергии на весь день. Их яркие и искристые ноты идеально подходят для летних дней и активного отдыха, добавляя легкость и радость в любой момент.</p>
+                <img src="../assets/images/jasmine.png" class="arom_img"/>
+            </div>
+
         </section>
 
-        <section class="therd_content">
+        <section class="popular_content">
             <h2>Популярные ароматы</h2>
-            <div class="content_item">
+            <div class="popular_item">
                 <h4>Аромат №1: "Солнечный день"</h4>
                 <p>Этот свежий и легкий аромат с нотами цитрусов и зелени подарит вам ощущение солнечного дня в любое время года.</p>
-                <img src="../assets/images/sunny_day.png" class="flower_img"/>
-            </div>
-            <div class="content_item">
+                <img src="../assets/images/leaves5.png" class="arom_img"/>
+            
                 <h4>Аромат №2: "Нежный цветок"</h4>
                 <p>Нежный цветочный аромат с нотами розы и жасмина создаст романтическое настроение и привлечет внимание окружающих.</p>
-                <img src="../assets/images/gentle_flower.png" class="flower_img"/>
-            </div>
-            <div class="content_item">
+                <img src="../assets/images/jasmine.png" class="arom_img"/>
+            
                 <h4>Аромат №3: "Тайна востока"</h4>
                 <p>Глубокий восточный аромат с нотами ванили и сандала погружает в атмосферу загадки и волшебства.</p>
-                <img src="../assets/images/eastern_secret.png" class="flower_img"/>
+                <img src="../assets/images/moon.png" class="arom_img"/>
             </div>
         </section>
     </main>
@@ -77,3 +96,77 @@
 </html>
 
 
+<style>
+    .intermedia_item{   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 80%;
+    margin: 10px 0 10px 0 ;
+    padding: 10px;
+    margin: 15px;
+    border: 2px solid rgb(184, 184, 173);
+    border-radius: 5px;
+    box-shadow: 12px 12px 2px 1px rgba(45, 81, 81, 0.2);
+    background-color: rgb(201, 239, 239);
+
+    }
+
+.catalog_content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    width: 95%;
+    margin: 10px 0 10px 0 ;
+    padding: 10px;
+    border: 2px solid beige;
+    border-radius: 5px;
+    background-color: rgb(238, 255, 255);
+}
+
+.catalog_item{
+   
+    display: flex;
+    flex-direction: column;
+
+    width: 75%;
+    margin: 10px 0 10px 0 ;
+    padding: 10px;
+    margin: 15px;
+    border: 2px solid beige;
+    border-radius: 5px;
+    background-color: rgb(240, 236, 255);
+
+}
+
+.popular_item{
+    
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+
+    margin: 10px 0 10px 0 ;
+    padding: 10px;
+    margin: 15px;
+    border: 2px solid beige;
+    border-radius: 5px;
+    background-color: rgb(201, 239, 239);
+}
+
+.arom_img{
+    width: 95px;
+    border: 2px solid beige;
+    border-radius: 30px;
+    background-color: rgb(255, 255, 255);
+    margin: 5px;
+    padding: 2px;
+}
+
+
+</style>
